@@ -1,5 +1,5 @@
 ###################
-What is CodeIgniter
+What is CodeIgniter for iSeries System IMB
 ###################
 
 CodeIgniter is an Application Development Framework - a toolkit - for people
