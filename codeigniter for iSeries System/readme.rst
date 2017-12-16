@@ -39,28 +39,14 @@ Instalación
 2. Ir al directorio application/config/database.php y editar este archivo.
 3. Configurar las conexiones por ejemplo:
 
-$db['default'] = array(
-	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'yourusername',
-	'password' => 'yourpassword',
-	'database' => 'databasename',
-	'dbdriver' => 'db2',
-	'dbprefix' => '',
-   'libdata' => 'myschema',
-	'pconnect' => FALSE,
-	'db_debug' => (ENVIRONMENT !== 'production'),
-	'cache_on' => FALSE,
-	'cachedir' => '',
-	'char_set' => 'utf8',
-	'dbcollat' => 'utf8_general_ci',
-	'swap_pre' => '',
-	'encrypt' => FALSE,
-	'compress' => FALSE,
-	'stricton' => FALSE,
-	'failover' => array(),
-	'save_queries' => TRUE
-);
+'hostname' => 'localhost',
+'username' => 'yourusername',
+'password' => 'yourpassword',
+'database' => 'databasename',
+'dbdriver' => 'db2',
+'dbprefix' => '',
+'libdata' => 'myschema',
+	
 
 4. Con esto puedes usar desde los modelos las sentecias para las cosultas a base de datos que nos 
 proporciona Codeigniter:
